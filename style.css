@@ -1,0 +1,39 @@
+        .container{
+            justify-content: center;
+            align-items: center;
+            
+            display: flex;
+            
+        }
+        .topbox{
+            padding: 10px 300px 10px 300px;
+        
+
+        }
+        .box{
+            border-radius: 10px;
+            background-color: pink;
+        }
+        .bottombox{
+            padding: 10px 50px 30px 50px;
+        }
+        #amount{
+            height: 25px;
+            border-radius: 0.2em;
+
+        }
+        #smenu1{
+            width: 150px;
+            height: 30px;
+            border-radius: 0.2em;
+        }
+        #smenu2{
+            width: 150px;
+            height: 30px;
+            border-radius: 0.2em;
+        }
+        #result{
+            height: 25px;
+            border-radius: 0.2em;
+        }
+

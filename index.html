@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Döviz Kuru Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="topbox">
+                <p id="yazi">DÖVİZ KURU ÇEVİRİCİ</p>
+                <hr>
+            </div>
+            <div class="bottombox">
+                <input type="number" name="amount" id="amount" placeholder="Miktar">
+                <select name="" id="smenu1">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="JPY">JPY</option>
+                    <option value="BGN">BGN</option>
+                    <option value="CZK">CZK</option>
+                    <option value="DKK">DKK</option>
+                    <option value="GBP">GBP</option>
+                    <option value="HUF">HUF</option>
+                    <option value="PLN">PLN</option>
+                    <option value="RON">RON</option>
+                    <option value="SEK">SEK</option>
+                    <option value="CHF">CHF</option>
+                    <Option value="ISK">ISK</Option>
+                    <Option value="NOK">NOK</Option>
+                    <Option value="HRK">HRK</Option>
+                    <Option value="RUB">RUB</Option>
+                    <Option value="TRY">TRY</Option>
+                    <Option value="AUD">AUD</Option>
+                    <Option value="BRL">BRL</Option>
+                    <Option value="CAD">CAD</Option>
+                    <Option value="CNY">CNY</Option>
+                    <Option value="HKD">HKD</Option>
+                    <Option value="IDR">IDR</Option>
+                    <Option value="ILS">ILS</Option>
+                    <Option value="INR">INR</Option>
+                    <Option value="KRW">KRW</Option>
+                    <option value="MXN">MXN</option>
+                    <option value="MYR">MYR</option>
+                    <option value="NZD">NZD</option>
+                    <option value="PHP">PHP</option>
+                    <option value="SGD">SGD</option>
+                    <option value="THB">THB</option>
+                    <option value="ZAR">ZAR</option>
+                </select>
+                <i class="fa-solid fa-arrow-right"></i>
+                <select name="" id="smenu2">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="JPY">JPY</option>
+                    <option value="BGN">BGN</option>
+                    <option value="CZK">CZK</option>
+                    <option value="DKK">DKK</option>
+                    <option value="GBP">GBP</option>
+                    <option value="HUF">HUF</option>
+                    <option value="PLN">PLN</option>
+                    <option value="RON">RON</option>
+                    <option value="SEK">SEK</option>
+                    <option value="CHF">CHF</option>
+                    <Option value="ISK">ISK</Option>
+                    <Option value="NOK">NOK</Option>
+                    <Option value="HRK">HRK</Option>
+                    <Option value="RUB">RUB</Option>
+                    <Option value="TRY">TRY</Option>
+                    <Option value="AUD">AUD</Option>
+                    <Option value="BRL">BRL</Option>
+                    <Option value="CAD">CAD</Option>
+                    <Option value="CNY">CNY</Option>
+                    <Option value="HKD">HKD</Option>
+                    <Option value="IDR">IDR</Option>
+                    <Option value="ILS">ILS</Option>
+                    <Option value="INR">INR</Option>
+                    <Option value="KRW">KRW</Option>
+                    <option value="MXN">MXN</option>
+                    <option value="MYR">MYR</option>
+                    <option value="NZD">NZD</option>
+                    <option value="PHP">PHP</option>
+                    <option value="SGD">SGD</option>
+                    <option value="THB">THB</option>
+                    <option value="ZAR">ZAR</option>
+                </select>
+                <input type="text" id="result" readonly>
+                
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/0faad99726.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
